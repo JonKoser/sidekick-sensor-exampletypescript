@@ -13,7 +13,7 @@ class Harvester {
       this.host.emitEvent({
         metadata: this.metadata,
         data: {
-          text: `EVENT FROM JAVASCRIPT ${new Date()}`,
+          text: `Event from example Node harvester: ${new Date()}`,
         },
       });
     }, 3000);
