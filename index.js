@@ -1,8 +1,7 @@
 
-const { HarvesterPlugin } = require('ldk');
-const Harvester = require('./harvester');
+const { SensorPlugin } = require('ldk');
+const Sensor = require('./sensor');
 
-const impl = new Harvester();
-const harvesterPlugin = new HarvesterPlugin(impl);
-harvesterPlugin.serve();
-
+const impl = new Sensor();
+const sensorPlugin = new SensorPlugin(impl);
+sensorPlugin.serve();

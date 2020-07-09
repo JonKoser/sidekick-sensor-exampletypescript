@@ -1,6 +1,6 @@
-# Sidekick Harvester Example Node
+# Sidekick Sensor Example Node
 
-The is a very simple harvester to use as a starting point. This harvester simply emits a text event every 3 seconds containing a timestamp.
+The is a very simple sensor to use as a starting point. This sensor simply emits a text event every 3 seconds containing a timestamp.
 
 ## Developers
 

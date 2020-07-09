@@ -1,4 +1,4 @@
-class Harvester {
+class Sensor {
   constructor() {
     this.config = {
       foo: 'bar',
@@ -13,7 +13,7 @@ class Harvester {
       this.host.emitEvent({
         metadata: this.metadata,
         data: {
-          text: `Event from example Node harvester: ${new Date()}`,
+          text: `Event from example Node sensor: ${new Date()}`,
         },
       });
     }, 3000);
@@ -35,4 +35,4 @@ class Harvester {
   }
 }
 
-module.exports = Harvester;
+module.exports = Sensor;
