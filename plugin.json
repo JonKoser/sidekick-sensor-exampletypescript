@@ -1,5 +1,20 @@
 {
+  "author": "Olive",
+  "created": "2020-06-22T00:00:00Z",
+  "dependencies": [],
+  "description": "This is an example sensor written in Node.",
+  "icon": "bathtub",
   "id": "3d90c6dc-6855-4ecf-ac34-5a091bfec401",
+  "name": "Example Node",
+  "organization": "OliveAI",
   "specification": "1",
-  "version": "0.0.1"
+  "updated": "2020-07-23T00:00:00Z",
+  "version": "1.1.0",
+  "storage": {
+    "period": {
+      "name": "Emit Period",
+      "description": "The time (in milliseconds) the plugin should wait between emitting example events.",
+      "restartRequired": true
+    }
+  }
 }
