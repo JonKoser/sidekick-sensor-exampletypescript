@@ -12,7 +12,7 @@ export class Sensor implements SensorIfc {
     };
   }
 
-  start(host: hostIfc, metadata: Object) {
+  start(host: hostIfc, metadata: Object): void {
     this.host = host;
     this.metadata = metadata;
 
