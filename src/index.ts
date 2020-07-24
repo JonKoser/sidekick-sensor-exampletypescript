@@ -1,5 +1,5 @@
 
-import SensorPlugin from 'ldk';
+import { SensorPlugin } from 'ldk';
 import { Sensor } from './sensor';
 
 const impl = new Sensor();
